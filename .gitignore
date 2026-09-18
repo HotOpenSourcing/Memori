@@ -20,7 +20,6 @@ htmlcov/
 # IDEs
 .DS_Store
 .idea
-.vscode
 *.swo
 
 # Virtual environments
@@ -29,7 +28,6 @@ env/
 .venv/
 
 # Environment variables
-.env
 
 # SQLite databases
 *.db
@@ -123,3 +121,4 @@ src/native/index.d.ts
 !memori-ts/src/native/package.json
 core/bindings/node/index.d.ts
 core/bindings/node/index.js
+config.bat

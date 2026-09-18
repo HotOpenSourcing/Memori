@@ -11,8 +11,8 @@
     "openclaw.plugin.json"
   ],
   "scripts": {
-    "build": "tsc",
-    "build:dev": "tsc --watch",
+    "build": "node init && tsc",
+    "build:dev": "node init && tsc --watch",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
